@@ -1,0 +1,19 @@
+public class Main {
+
+    public static void main(String[] args) {
+        
+        double a = 0;
+        double b = 7;
+        if( a != 0 ) {
+            double x = -b / a; // ax + b = 0
+            System.out.println("x =" + x);
+        }
+        else {
+            System.out.println("Невозможно поделить на ноль!");
+
+        }
+
+
+       
+    }
+}
